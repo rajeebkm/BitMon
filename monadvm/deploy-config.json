@@ -1,0 +1,10 @@
+{
+  "rescueDelaySrc": 604800,
+  "rescueDelayDst": 604800,
+  "creationFee": "0.001",
+  "bitcoinConfig": {
+    "minConfirmations": 1,
+    "dustThreshold": 546,
+    "maxAmount": 100000000000
+  }
+}

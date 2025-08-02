@@ -1,0 +1,30 @@
+{
+  "orderId": "order_1754130934166",
+  "timestamp": 1754130934166,
+  "network": "hardhat",
+  "chainId": 31337,
+  "maker": {
+    "address": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+    "provides": {
+      "asset": "ETH",
+      "amount": "10000000000000000"
+    },
+    "wants": {
+      "asset": "BTC",
+      "amount": "0.001",
+      "address": "tb1qw04epl2mtg7un7a7dle8qzhs7we0s4u2gf5jqp",
+      "publicKey": "02757f19d8c1ac3875a20d544a090da2590288df9b3adf6bb9cba7a0ce75374008"
+    }
+  },
+  "secret": "0xa80280a1239755f94b1d690e4e388375b61fd14be29f4f7fd73ebb3d447413b0",
+  "hashlock": "0x1d59973a4225b597668750d186f182258c4cba68382c0135aa1087c19dca5377",
+  "timelock": {
+    "withdrawalPeriod": 0,
+    "cancellationPeriod": 3600
+  },
+  "status": "CREATED",
+  "contracts": {
+    "btcEscrowFactory": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+    "accessToken": "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+  }
+}

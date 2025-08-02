@@ -1,0 +1,52 @@
+{
+  "orderId": "order_1754138923932",
+  "timestamp": 1754138923932,
+  "network": "unknown",
+  "chainId": 10143,
+  "maker": {
+    "address": "0x7909bC836c98bE432c43CF58CE9442a6564026aE",
+    "provides": {
+      "asset": "ETH",
+      "amount": "10000000000000000"
+    },
+    "wants": {
+      "asset": "BTC",
+      "amount": "0.001",
+      "address": "tb1qw04epl2mtg7un7a7dle8qzhs7we0s4u2gf5jqp",
+      "publicKey": "02757f19d8c1ac3875a20d544a090da2590288df9b3adf6bb9cba7a0ce75374008"
+    }
+  },
+  "secret": "0xa633d1244b8409365a008a792ed120a34ff5a69defc553c21a965405beb9f6a6",
+  "hashlock": "0x24aabb2eca12fff4cddd191bf99fe0c3fb5b4df14643e12797b92cae63f4a900",
+  "timelock": {
+    "withdrawalPeriod": 0,
+    "cancellationPeriod": 3600
+  },
+  "status": "FUNDED",
+  "contracts": {
+    "btcEscrowFactory": "0x9c4da3F640f194E187eE263A3e16404f9af70761",
+    "accessToken": "0xa2Ba2AdeFFf8059faAa066d6050aF70C4e5A6ccD"
+  },
+  "taker": {
+    "address": "0x7909bC836c98bE432c43CF58CE9442a6564026aE",
+    "bitcoinAddress": "msNo8GiseS48G6XKPFsRvp6SCJahb688EE"
+  },
+  "bitcoinHTLC": {
+    "address": "tb1q7v78s3gfpxdu4xw3ns2umqs2tydsxzrlu0ra7vcxlpktt4wgmums6jwhxd",
+    "scriptHash": "f33c784509099bca99d19c15cd820a591b03087fe3c7df3306f86cb5d5c8df37",
+    "amount": "0.001",
+    "network": "testnet4",
+    "locktime": 1754142553
+  },
+  "transactions": {
+    "monadvmEscrowCreation": "0xcf5c38cf3960ea19995ed5bf5b6dffea2b5a444bf4cd17a97142a8efa5b2df11",
+    "bitcoinHTLCFunding": "sim_0001_1754140162499_funding"
+  },
+  "monadvmEscrow": {
+    "address": "0xADFf7be842A4EdD1b62d1efc454E1fE825Aa5e12",
+    "txHash": "0xcf5c38cf3960ea19995ed5bf5b6dffea2b5a444bf4cd17a97142a8efa5b2df11",
+    "amount": "10000000000000000",
+    "safetyDeposit": "1000000000000000",
+    "creationFee": "1000000000000000"
+  }
+}

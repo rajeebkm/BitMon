@@ -1,0 +1,16 @@
+{
+  "address": "tb1q7v78s3gfpxdu4xw3ns2umqs2tydsxzrlu0ra7vcxlpktt4wgmums6jwhxd",
+  "redeemScript": "63a82024aabb2eca12fff4cddd191bf99fe0c3fb5b4df14643e12797b92cae63f4a900882102757f19d8c1ac3875a20d544a090da2590288df9b3adf6bb9cba7a0ce75374008ac670459178e68b17521026f3ed0eca1aa58df0cd053e50ccbae2b6b7ac1391096987bf7defd76ac60dabaac68",
+  "scriptHash": "f33c784509099bca99d19c15cd820a591b03087fe3c7df3306f86cb5d5c8df37",
+  "witnessScript": "63a82024aabb2eca12fff4cddd191bf99fe0c3fb5b4df14643e12797b92cae63f4a900882102757f19d8c1ac3875a20d544a090da2590288df9b3adf6bb9cba7a0ce75374008ac670459178e68b17521026f3ed0eca1aa58df0cd053e50ccbae2b6b7ac1391096987bf7defd76ac60dabaac68",
+  "lockingScript": "0020f33c784509099bca99d19c15cd820a591b03087fe3c7df3306f86cb5d5c8df37",
+  "config": {
+    "senderPublicKey": "026f3ed0eca1aa58df0cd053e50ccbae2b6b7ac1391096987bf7defd76ac60daba",
+    "receiverPublicKey": "02757f19d8c1ac3875a20d544a090da2590288df9b3adf6bb9cba7a0ce75374008",
+    "hashlock": "24aabb2eca12fff4cddd191bf99fe0c3fb5b4df14643e12797b92cae63f4a900",
+    "locktime": 1754142553,
+    "network": "testnet4",
+    "useSegwit": true
+  },
+  "createdAt": "2025-08-02T12:49:14.406Z"
+}

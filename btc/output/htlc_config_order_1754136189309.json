@@ -1,0 +1,8 @@
+{
+  "senderPublicKey": "026f3ed0eca1aa58df0cd053e50ccbae2b6b7ac1391096987bf7defd76ac60daba",
+  "receiverPublicKey": "02757f19d8c1ac3875a20d544a090da2590288df9b3adf6bb9cba7a0ce75374008",
+  "hashlock": "0b855803fd133fe899c14685cf1dbafc11faa86f08624a011dc73112631a7a31",
+  "locktime": 1754141168,
+  "network": "testnet4",
+  "useSegwit": true
+}

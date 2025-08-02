@@ -1,0 +1,42 @@
+{
+  "orderId": "order_1754137688220",
+  "timestamp": 1754137688220,
+  "network": "hardhat",
+  "chainId": 31337,
+  "maker": {
+    "address": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+    "provides": {
+      "asset": "ETH",
+      "amount": "10000000000000000"
+    },
+    "wants": {
+      "asset": "BTC",
+      "amount": "0.001",
+      "address": "tb1qw04epl2mtg7un7a7dle8qzhs7we0s4u2gf5jqp",
+      "publicKey": "02757f19d8c1ac3875a20d544a090da2590288df9b3adf6bb9cba7a0ce75374008"
+    }
+  },
+  "secret": "0x40647d813cdd15698586a78fdcbf3e38dea0ae6fb1eb0835d653fb1040af6364",
+  "hashlock": "0xe773c6187ca9a03f56328c18a3bc099fef606f44e0a6b143c7a0c359fafd22cf",
+  "timelock": {
+    "withdrawalPeriod": 0,
+    "cancellationPeriod": 3600
+  },
+  "status": "FILLED",
+  "contracts": {
+    "btcEscrowFactory": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+    "accessToken": "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+  },
+  "taker": {
+    "address": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+    "bitcoinAddress": "msNo8GiseS48G6XKPFsRvp6SCJahb688EE"
+  },
+  "bitcoinHTLC": {
+    "address": "tb1qq0rz74z652pr3du47zqlxzn5v9ru2qe9stu6cezksyzas7788jus9ldxhn",
+    "scriptHash": "03c62f545aa28238b795f081f30a746147c5032582f9ac64568105d87bc73cb9",
+    "amount": "0.001",
+    "network": "testnet4",
+    "locktime": 1754141373
+  },
+  "transactions": {}
+}

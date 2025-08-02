@@ -1,0 +1,26 @@
+{
+  "network": "hardhat",
+  "chainId": 31337,
+  "contracts": {
+    "accessToken": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "btcEscrowFactory": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+    "btcEscrowSrcImplementation": "0xCafac3dD18aC6c6e92c921884f9E4176737C052c",
+    "btcEscrowDstImplementation": "0x9f1ac54BEF0DD2f6f3462EA0fa94fC62300d3a8e"
+  },
+  "config": {
+    "rescueDelaySrc": 604800,
+    "rescueDelayDst": 604800,
+    "creationFee": "0.001",
+    "bitcoinConfig": {
+      "minConfirmations": 1,
+      "dustThreshold": 546,
+      "maxAmount": 100000000000
+    }
+  },
+  "deployedAt": "2025-08-02T10:29:50.477Z",
+  "gasUsed": {
+    "accessToken": "609832",
+    "btcEscrowFactory": "2833704",
+    "total": "3443536"
+  }
+}

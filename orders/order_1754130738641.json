@@ -1,0 +1,30 @@
+{
+  "orderId": "order_1754130738641",
+  "timestamp": 1754130738641,
+  "network": "unknown",
+  "chainId": 31337,
+  "maker": {
+    "address": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+    "provides": {
+      "asset": "ETH",
+      "amount": "10000000000000000"
+    },
+    "wants": {
+      "asset": "BTC",
+      "amount": "0.001",
+      "address": "tb1qw04epl2mtg7un7a7dle8qzhs7we0s4u2gf5jqp",
+      "publicKey": "02757f19d8c1ac3875a20d544a090da2590288df9b3adf6bb9cba7a0ce75374008"
+    }
+  },
+  "secret": "0x24f3a6431bf5ed0db9f3443298447322fc0a90be221a4ac0b8b417f144834ac3",
+  "hashlock": "0xe6496e55fb2e81b885092d2320930ee897f38599d729ee49a27ab11af73c104b",
+  "timelock": {
+    "withdrawalPeriod": 0,
+    "cancellationPeriod": 3600
+  },
+  "status": "CREATED",
+  "contracts": {
+    "btcEscrowFactory": "0x46dD29f29FB4816A4E7bd1Dc6458d1dFCA097993",
+    "accessToken": "0x0843b69626d78874Dc1A2A576102E081d8bc5438"
+  }
+}

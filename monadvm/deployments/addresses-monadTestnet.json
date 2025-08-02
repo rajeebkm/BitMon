@@ -1,0 +1,9 @@
+{
+  "network": "monadTestnet",
+  "chainId": 10143,
+  "accessToken": "0xa2Ba2AdeFFf8059faAa066d6050aF70C4e5A6ccD",
+  "btcEscrowFactory": "0x9c4da3F640f194E187eE263A3e16404f9af70761",
+  "btcEscrowSrcImplementation": "0xfa4caF6AEa47A0e108a1D85079da28354a62c510",
+  "btcEscrowDstImplementation": "0x51DC0f575095c4DFd34C41e00e8fc835C5C09596",
+  "deployedAt": "2025-08-02T12:45:54.911Z"
+}
